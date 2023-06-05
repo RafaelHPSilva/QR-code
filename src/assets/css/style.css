@@ -1,0 +1,84 @@
+/*=======VARIABLES=========*/
+:root{
+    /* HSL color mode */
+  --section-color:hsl(0, 0%, 100%);
+  --text-color:hsla(218, 44%, 22%);
+  --body-color:hsl(212, 45%, 89%);
+  --titles-color:hsl(218, 44%, 22%);
+    /*   FONTS   */
+
+  --body-font: 400 1rem 'Outfit', sans-serif;
+  --title-font: 700 1.25rem 'Outfit', sans-serif;
+  }
+  /*   BASE   */
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+main{
+  overflow: hidden; 
+
+}
+
+/*   PAGE   */
+body{
+ background: var(--body-color); 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ajuste conforme necessário */
+}
+.box_code{
+  background-color: aliceblue;
+  width: 280px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.25rem;
+}
+
+.code{
+  margin-bottom: 1.25rem;
+}
+
+img{
+  width: 260px;
+  border-radius: 1rem;  
+}
+
+.code_description{
+  text-align: center;
+  text-justify: auto;
+  margin: 0 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.code_description__subtitle{
+  font: var(--title-font) ; 
+  padding-bottom: 1.25rem;
+}
+
+.code_description__orientaion{
+  font: var(--body-font);
+  color: var(--text-color);
+  padding-bottom: 1.25rem;
+}
+
+
+
+
+
+
+.attribution { 
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
